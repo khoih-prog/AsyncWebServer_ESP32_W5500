@@ -100,6 +100,8 @@
   * [2. Async_AdvancedWebServer_MemoryIssues_Send_CString on ESP32_DEV with ESP32_W5500](#2-Async_AdvancedWebServer_MemoryIssues_Send_CString-on-ESP32_DEV-with-ESP32_W5500)
   * [3. Async_AdvancedWebServer_SendChunked on ESP32_DEV with ESP32_W5500](#3-Async_AdvancedWebServer_SendChunked-on-ESP32_DEV-with-ESP32_W5500)
   * [4. AsyncWebServer_SendChunked on ESP32_DEV with ESP32_W5500](#4-AsyncWebServer_SendChunked-on-ESP32_DEV-with-ESP32_W5500)
+  * [5. Async_WebSocketsServer on ESP32_DEV with ESP32_W5500](#5-Async_WebSocketsServer-on-ESP32_DEV-with-ESP32_W5500)
+  * [6. Async_HTTPBasicAuth on ESP32_DEV with ESP32_W5500](#6-Async_HTTPBasicAuth-on-ESP32_DEV-with-ESP32_W5500)
 * [Debug](#debug)
 * [Troubleshooting](#troubleshooting)
 * [Issues](#issues)
