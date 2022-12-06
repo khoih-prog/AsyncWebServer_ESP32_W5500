@@ -9,6 +9,7 @@
 <a href="https://www.buymeacoffee.com/khoihprog6" title="Donate to my libraries using BuyMeACoffee"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Donate to my libraries using BuyMeACoffee" style="height: 50px !important;width: 181px !important;" ></a>
 <a href="https://www.buymeacoffee.com/khoihprog6" title="Donate to my libraries using BuyMeACoffee"><img src="https://img.shields.io/badge/buy%20me%20a%20coffee-donate-orange.svg?logo=buy-me-a-coffee&logoColor=FFDD00" style="height: 20px !important;width: 200px !important;" ></a>
 
+
 ---
 ---
 
@@ -78,16 +79,21 @@
   * [Path variable](#path-variable)
 * [Examples](#examples)
   * [ 1. Async_AdvancedWebServer](examples/Async_AdvancedWebServer)
-  * [ 2. Async_HelloServer](examples/Async_HelloServer)
-  * [ 3. Async_HelloServer2](examples/Async_HelloServer2)
-  * [ 4. AsyncMultiWebServer_ESP32_W5500](examples/AsyncMultiWebServer_ESP32_W5500)
-  * [ 5. Async_PostServer](examples/Async_PostServer)
-  * [ 6. Async_RegexPatterns_ESP32_W5500](examples/Async_RegexPatterns_ESP32_W5500)
-  * [ 7. AsyncSimpleServer_ESP32_W5500](examples/AsyncSimpleServer_ESP32_W5500)
-  * [ 8. Async_AdvancedWebServer_MemoryIssues_SendArduinoString](examples/Async_AdvancedWebServer_MemoryIssues_SendArduinoString)
-  * [ 9. Async_AdvancedWebServer_MemoryIssues_Send_CString](examples/Async_AdvancedWebServer_MemoryIssues_Send_CString)
-  * [10. Async_AdvancedWebServer_SendChunked](examples/Async_AdvancedWebServer_SendChunked)
-  * [11. AsyncWebServer_SendChunked](examples/AsyncWebServer_SendChunked)
+  * [ 2. Async_AdvancedWebServer_MemoryIssues_SendArduinoString](examples/Async_AdvancedWebServer_MemoryIssues_SendArduinoString)
+  * [ 3. Async_AdvancedWebServer_MemoryIssues_Send_CString](examples/Async_AdvancedWebServer_MemoryIssues_Send_CString)
+  * [ 4. Async_AdvancedWebServer_SendChunked](examples/Async_AdvancedWebServer_SendChunked)
+  * [ 5. Async_HelloServer](examples/Async_HelloServer)
+  * [ 6. Async_HelloServer2](examples/Async_HelloServer2)
+  * [ 7. Async_HttpBasicAuth](examples/Async_HttpBasicAuth)
+  * [ 8. AsyncMultiWebServer_ESP32_W5500](examples/AsyncMultiWebServer_ESP32_W5500)
+  * [ 9. Async_PostServer](examples/Async_PostServer)
+  * [10. Async_RegexPatterns_ESP32_W5500](examples/Async_RegexPatterns_ESP32_W5500)
+  * [11. AsyncSimpleServer_ESP32_W5500](examples/AsyncSimpleServer_ESP32_W5500) 
+  * [12. AsyncWebServer_SendChunked](examples/AsyncWebServer_SendChunked)
+  * [13. Async_WebSocketsServer](examples/Async_WebSocketsServer)
+  * [14. MQTTClient_Auth](examples/MQTTClient_Auth) 
+  * [15. MQTTClient_Basic](examples/MQTTClient_Basic)
+  * [16. MQTT_ThingStream](examples/MQTT_ThingStream)
 * [Example Async_AdvancedWebServer](#Example-Async_AdvancedWebServer) 
 * [Debug Terminal Output Samples](#debug-terminal-output-samples)
   * [1. AsyncMultiWebServer_ESP32_W5500 on ESP32_DEV with ESP32_W5500](#1-AsyncMultiWebServer_ESP32_W5500-on-ESP32_DEV-with-ESP32_W5500)
@@ -1473,17 +1479,23 @@ build_flags =
 ### Examples
 
  1. [Async_AdvancedWebServer](examples/Async_AdvancedWebServer)
- 2. [Async_HelloServer](examples/Async_HelloServer) 
- 3. [Async_HelloServer2](examples/Async_HelloServer2)
- 4. [AsyncMultiWebServer_ESP32_W5500](examples/AsyncMultiWebServer_ESP32_W5500)
- 5. [Async_PostServer](examples/Async_PostServer)
- 6. [Async_RegexPatterns_ESP32_W5500](examples/Async_RegexPatterns_ESP32_W5500)
- 7. [AsyncSimpleServer_ESP32_W5500](examples/AsyncSimpleServer_ESP32_W5500)
- 8. [Async_AdvancedWebServer_MemoryIssues_SendArduinoString](examples/Async_AdvancedWebServer_MemoryIssues_SendArduinoString)
- 9. [Async_AdvancedWebServer_MemoryIssues_Send_CString](examples/Async_AdvancedWebServer_MemoryIssues_Send_CString)
-10. [Async_AdvancedWebServer_SendChunked](examples/Async_AdvancedWebServer_SendChunked)
-11. [AsyncWebServer_SendChunked](examples/AsyncWebServer_SendChunked)
-
+ 2. [Async_AdvancedWebServer_MemoryIssues_SendArduinoString](examples/Async_AdvancedWebServer_MemoryIssues_SendArduinoString) 
+ 3. [Async_AdvancedWebServer_MemoryIssues_Send_CString](examples/Async_AdvancedWebServer_MemoryIssues_Send_CString)
+ 4. [Async_AdvancedWebServer_SendChunked](examples/Async_AdvancedWebServer_SendChunked)
+ 5. [Async_HelloServer](examples/Async_HelloServer)
+ 6. [Async_HelloServer2](examples/Async_HelloServer2)
+ 7. [Async_HttpBasicAuth](examples/Async_HttpBasicAuth)
+ 8. [AsyncMultiWebServer_ESP32_W5500](examples/AsyncMultiWebServer_ESP32_W5500)
+ 9. [Async_PostServer](examples/Async_PostServer)
+10. [Async_RegexPatterns_ESP32_W5500](examples/Async_RegexPatterns_ESP32_W5500)
+11. [AsyncSimpleServer_ESP32_W5500](examples/AsyncSimpleServer_ESP32_W5500)
+12. [AsyncWebServer_SendChunked](examples/AsyncWebServer_SendChunked)
+13. [Async_WebSocketsServer](examples/Async_WebSocketsServer)
+14. [MQTTClient_Auth](examples/MQTTClient_Auth)
+15. [MQTTClient_Basic](examples/MQTTClient_Basic)
+16. [MQTT_ThingStream](examples/MQTT_ThingStream)
+ 
+  
 ---
 ---
 
@@ -1510,7 +1522,7 @@ Following are debug terminal output and screen shots when running example [Async
 
 ```cpp
 Start AsyncMultiWebServer_ESP32_W5500 on ESP32_DEV with ESP32_W5500
-AsyncWebServer_ESP32_W5500 v1.6.2 for core v2.0.0+
+AsyncWebServer_ESP32_W5500 v1.6.3 for core v2.0.0+
 [AWS] Default SPI pinout:
 [AWS] SPI_HOST: 2
 [AWS] MOSI: 23
@@ -1560,7 +1572,7 @@ Following is the debug terminal and screen shot when running example [Async_Adva
 
 ```cpp
 Start Async_AdvancedWebServer_MemoryIssues_Send_CString on ESP32_DEV with ESP32_W5500
-AsyncWebServer_ESP32_W5500 v1.6.2 for core v2.0.0+
+AsyncWebServer_ESP32_W5500 v1.6.3 for core v2.0.0+
 [AWS] Default SPI pinout:
 [AWS] SPI_HOST: 2
 [AWS] MOSI: 23
@@ -1592,7 +1604,7 @@ While using `Arduino String`, the HEAP usage is very large
 
 ```cpp
 Start Async_AdvancedWebServer_MemoryIssues_SendArduinoString on ESP32_DEV with ESP32_W5500
-AsyncWebServer_ESP32_W5500 v1.6.2 for core v2.0.0+
+AsyncWebServer_ESP32_W5500 v1.6.3 for core v2.0.0+
 [AWS] Default SPI pinout:
 [AWS] SPI_HOST: 2
 [AWS] MOSI: 23
@@ -1632,7 +1644,7 @@ Following is debug terminal output when running example [Async_AdvancedWebServer
 
 ```cpp
 Start Async_AdvancedWebServer_SendChunked on ESP32_DEV with ESP32_W5500
-AsyncWebServer_ESP32_W5500 v1.6.2 for core v2.0.0+
+AsyncWebServer_ESP32_W5500 v1.6.3 for core v2.0.0+
 [AWS] Default SPI pinout:
 [AWS] SPI_HOST: 2
 [AWS] MOSI: 23
@@ -1700,7 +1712,7 @@ Following is debug terminal output when running example [AsyncWebServer_SendChun
 
 ```cpp
 Start AsyncWebServer_SendChunked on ESP32_DEV with ESP32_W5500
-AsyncWebServer_ESP32_W5500 v1.6.2 for core v2.0.0+
+AsyncWebServer_ESP32_W5500 v1.6.3 for core v2.0.0+
 [AWS] Default SPI pinout:
 [AWS] SPI_HOST: 2
 [AWS] MOSI: 23
@@ -1741,6 +1753,67 @@ AsyncWebServer is @ IP : 192.168.2.88
 [AWS] Bytes sent in chunk = 0
 ```
 
+
+---
+
+#### 5. Async_WebSocketsServer on ESP32_DEV with ESP32_W5500
+
+Following is debug terminal output when running example [Async_WebSocketsServer](examples/Async_WebSocketsServer) on `ESP32_DEV with LwIP W5500`, using ESP32 core `v2.0.0+`, to demo how to use `Async_WebSocketsServer` feature
+
+
+```cpp
+Starting Async_WebSocketsServer on ESP32_DEV with ESP32_W5500
+AsyncWebServer_ESP32_W5500 v1.6.3 for core v2.0.0+
+[AWS] Default SPI pinout:
+[AWS] SPI_HOST: 2
+[AWS] MOSI: 23
+[AWS] MISO: 19
+[AWS] SCK: 18
+[AWS] CS: 5
+[AWS] INT: 4
+[AWS] SPI Clock (MHz): 25
+[AWS] =========================
+
+ETH Started
+ETH Connected
+ETH MAC: DE:AD:BE:EF:BE:08, IPv4: 192.168.2.88
+FULL_DUPLEX, 100Mbps
+ws[Server: /ws][ClientID: 1] WSClient connected
+ws[Server: /ws][ClientID: 1] WSClient disconnected
+ws[Server: /ws][ClientID: 2] WSClient connected
+ws[Server: /ws][ClientID: 3] WSClient connected
+```
+
+---
+
+#### 6. Async_HTTPBasicAuth on ESP32_DEV with ESP32_W5500
+
+Following is debug terminal output when running example [Async_HTTPBasicAuth](examples/Async_HTTPBasicAuth) on `ESP32_DEV with LwIP W5500`, using ESP32 core `v2.0.0+`, to demo how to use `Async_Auth` feature
+
+
+```cpp
+Start Async_HTTPBasicAuth on ESP32_DEV with ESP32_W5500
+AsyncWebServer_ESP32_W5500 v1.6.3 for core v2.0.0+
+[AWS] Default SPI pinout:
+[AWS] SPI_HOST: 2
+[AWS] MOSI: 23
+[AWS] MISO: 19
+[AWS] SCK: 18
+[AWS] CS: 5
+[AWS] INT: 4
+[AWS] SPI Clock (MHz): 25
+[AWS] =========================
+
+ETH Started
+ETH Connected
+ETH MAC: DE:AD:BE:EF:BE:08, IPv4: 192.168.2.88
+FULL_DUPLEX, 100Mbps
+Async_HttpBasicAuth started @ IP : 192.168.2.88
+Open http://192.168.2.88/ in your browser to see it working
+Login using username = admin and password = esp32_w5500
+```
+
+
 ---
 ---
 
@@ -1776,7 +1849,8 @@ Submit issues to: [AsyncWebServer_ESP32_W5500 issues](https://github.com/khoih-p
 ## TO DO
 
  1. Fix bug. Add enhancement
- 2. Add support to more Ethernet shields, such as **DP83848, TLK110, IP101, RTL8201, DM9051, KSZ8041, KSZ8081, etc.**
+ 2. Add support to more Ethernet shields, such as **DP83848, TLK110, IP101, RTL8201, DM9051, KSZ8041, KSZ8081, W6100, etc.**
+ 3. Add `LittleFS` support to use with new cores
 
 ---
 
@@ -1787,11 +1861,11 @@ Submit issues to: [AsyncWebServer_ESP32_W5500 issues](https://github.com/khoih-p
  3. Add debugging features.
  4. Add Table-of-Contents and Version String
  5. Display compiler `#warning` only when `DEBUG_LEVEL` is 3+
- 6. Fix AsyncWebSocket bug
+ 6. Fix `AsyncWebSocket` bug
  7. Support using `CString` to save heap to send `very large data`. Check [request->send(200, textPlainStr, jsonChartDataCharStr); - Without using String Class - to save heap #8](https://github.com/khoih-prog/Portenta_H7_AsyncWebServer/pull/8)
  8. Add examples [Async_AdvancedWebServer_SendChunked](https://github.com/khoih-prog/AsyncWebServer_RP2040W/tree/main/examples/Async_AdvancedWebServer_SendChunked) and [AsyncWebServer_SendChunked](https://github.com/khoih-prog/AsyncWebServer_RP2040W/tree/main/examples/AsyncWebServer_SendChunked) to demo how to use `beginChunkedResponse()` to send large `html` in chunks
  9. Use `allman astyle` and add `utils`
-
+10. Add `Async_WebSocketsServer`, `Async_HttpBasicAuth` and `MQTT` examples
 
 ---
 ---

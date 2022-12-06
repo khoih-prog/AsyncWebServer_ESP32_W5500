@@ -22,11 +22,12 @@
   You should have received a copy of the GNU Lesser General Public License along with this library;
   if not, write to the Free Software Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 
-  Version: 1.6.2
+  Version: 1.6.3
 
   Version Modified By   Date      Comments
   ------- -----------  ---------- -----------
   1.6.2   K Hoang      30/11/2022 Initial porting for ENC28J60 + ESP32. Sync with AsyncWebServer_WT32_ETH01 v1.6.2
+  1.6.3   K Hoang      05/12/2022 Add Async_WebSocketsServer, MQTT examples
  *****************************************************************************************************************************/
 
 #ifndef ASYNCWEBSERVERRESPONSEIMPL_H_

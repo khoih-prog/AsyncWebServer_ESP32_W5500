@@ -4,12 +4,12 @@
   This is part of the libb64 project, and has been placed in the public domain.
   For details, see http://sourceforge.net/projects/libb64
 
-  For LAN8720 Ethernet in WT32_ETH01 (ESP32 + LAN8720)
+  For W5500 LwIP Ethernet in ESP32 (ESP32 + W5500)
 
-  AsyncWebServer_WT32_ETH01 is a library for the Ethernet LAN8720 in WT32_ETH01 to run AsyncWebServer
+  AsyncWebServer_ESP32_W5500 is a library for the LwIP Ethernet W5500 in ESP32 to run AsyncWebServer
 
   Based on and modified from ESPAsyncWebServer (https://github.com/me-no-dev/ESPAsyncWebServer)
-  Built by Khoi Hoang https://github.com/khoih-prog/AsyncWebServer_WT32_ETH01
+  Built by Khoi Hoang https://github.com/khoih-prog/AsyncWebServer_ESP32_W5500
   Licensed under GPLv3 license
  *****************************************************************************************************************************/
 
