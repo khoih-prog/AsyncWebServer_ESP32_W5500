@@ -1,12 +1,12 @@
 /****************************************************************************************************************************
   defines.h
 
-  For RP2040W with CYW43439 WiFi
+  For W5500 LwIP Ethernet in ESP32 (ESP32 + W5500)
 
-  AsyncWebServer_RP2040W is a library for the RP2040W with CYW43439 WiFi
+  AsyncWebServer_ESP32_W5500 is a library for the LwIP Ethernet W5500 in ESP32 to run AsyncWebServer
 
   Based on and modified from ESPAsyncWebServer (https://github.com/me-no-dev/ESPAsyncWebServer)
-  Built by Khoi Hoang https://github.com/khoih-prog/AsyncWebServer_RP2040W
+  Built by Khoi Hoang https://github.com/khoih-prog/AsyncWebServer_ESP32_W5500
   Licensed under GPLv3 license
  *****************************************************************************************************************************/
 

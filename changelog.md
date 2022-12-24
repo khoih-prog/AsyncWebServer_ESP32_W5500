@@ -15,6 +15,7 @@
 ## Table of contents
 
 * [Changelog](#changelog)
+  * [Releases v1.6.4](#releases-v164)
   * [Releases v1.6.3](#releases-v163)
   * [Releases v1.6.2](#releases-v162)
 
@@ -24,6 +25,10 @@
 ---
 
 ## Changelog
+
+#### Releases v1.6.4
+
+1. Remove unused variable to avoid compiler warning and error
 
 #### Releases v1.6.3
 

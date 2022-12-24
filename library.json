@@ -1,6 +1,6 @@
 {
   "name":"AsyncWebServer_ESP32_W5500",
-  "version": "1.6.3",
+  "version": "1.6.4",
   "description":"Asynchronous HTTP and WebSocket Server Library for (ESP32 + LwIP W5500). Now supporting using CString to save heap to send very large data and with examples to demo how to use beginChunkedResponse() to send large html in chunks",
   "keywords":"http, async, async-webserver, websocket, webserver, esp32, w5500, lwip",
   "authors": 

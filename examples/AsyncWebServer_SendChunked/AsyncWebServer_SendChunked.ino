@@ -135,7 +135,6 @@ String out;
 void handleRoot(AsyncWebServerRequest *request)
 {
   out.reserve(STRING_SIZE);
-  char temp[70];
 
   // clear the String to start over
   out = String();

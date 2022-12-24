@@ -15,7 +15,7 @@ If you don't find anything, please [open a new issue](https://github.com/khoih-p
 Please ensure to specify the following:
 
 * Arduino IDE version (e.g. 1.8.19) or Platform.io version
-* Board Core Version (e.g. ESP32 core v2.0.5)
+* Board Core Version (e.g. ESP32 core v2.0.6)
 * Contextual information (e.g. what you were trying to achieve)
 * Simplest possible steps to reproduce
 * Anything that might be relevant in your opinion, such as:
@@ -31,7 +31,7 @@ Please be educated, civilized and constructive. Disrespective posts against [Git
 ```
 Arduino IDE version: 1.8.19
 ESP32_DEV board
-ESP32 core v2.0.5
+ESP32 core v2.0.6
 OS: Ubuntu 20.04 LTS
 Linux xy-Inspiron-3593 5.15.0-56-generic #62~20.04.1-Ubuntu SMP Tue Nov 22 21:24:20 UTC 2022 x86_64 x86_64 x86_64 GNU/Linux
 

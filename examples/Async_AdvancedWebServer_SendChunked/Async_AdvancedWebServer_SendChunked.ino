@@ -39,7 +39,7 @@
  *****************************************************************************************************************************/
 
 #if !( defined(ESP32) )
-  #error This code is designed for (ESP32 + W5500) to run on ESP32 platform! Please check your Tools->Board setting.
+#error This code is designed for (ESP32 + W5500) to run on ESP32 platform! Please check your Tools->Board setting.
 #endif
 
 #include <Arduino.h>
@@ -186,7 +186,7 @@ void drawGraph(AsyncWebServerRequest *request)
   AWS_LOGDEBUG1("Total length to send in chunks =", out.length());
 
   AsyncWebServerResponse *response = request->beginChunkedResponse("image/svg+xml", [](uint8_t *buffer, size_t maxLen,
-                                                                                       size_t filledLength) -> size_t
+                                     size_t filledLength) -> size_t
   {
     size_t len = min(maxLen, out.length() - filledLength);
     memcpy(buffer, out.c_str() + filledLength, len);

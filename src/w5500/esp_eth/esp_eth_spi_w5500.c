@@ -36,8 +36,8 @@ esp_eth_mac_t* w5500_new_mac( spi_device_handle_t *spi_handle, int INT_GPIO )
 
   eth_mac_config_t mac_config = ETH_MAC_DEFAULT_CONFIG();
 
-  eth_phy_config_t phy_config = ETH_PHY_DEFAULT_CONFIG();
-  phy_config.reset_gpio_num = -1;
+  //eth_phy_config_t phy_config = ETH_PHY_DEFAULT_CONFIG();
+  //phy_config.reset_gpio_num = -1;
 
   mac_config.smi_mdc_gpio_num  = -1; // w5500 doesn't have SMI interface
   mac_config.smi_mdio_gpio_num = -1;
